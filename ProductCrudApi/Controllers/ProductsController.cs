@@ -9,7 +9,7 @@ namespace ProductCrudApi.Controllers
 {
     [ApiController]
     [Route("api/products")]
-    [Authorize]   // हा संपूर्ण controller JWT token शिवाय access होणार नाही
+    [Authorize]   
     public class ProductsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
